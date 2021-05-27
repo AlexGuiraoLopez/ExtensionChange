@@ -44,7 +44,7 @@ public class MainWindow extends javax.swing.JFrame
             }
         });
 
-        jLabel1.setText("PATH");
+        jLabel1.setText("Absolute PATH");
 
         jLabel2.setText("New Extension");
 
@@ -63,12 +63,12 @@ public class MainWindow extends javax.swing.JFrame
                                 .addComponent(txtExtension, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jLabel1)
-                                .addGap(18, 18, 18)
-                                .addComponent(txtPath, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtPath, javax.swing.GroupLayout.DEFAULT_SIZE, 303, Short.MAX_VALUE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(157, 157, 157)
                         .addComponent(btnStart, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

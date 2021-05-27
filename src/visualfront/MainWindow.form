@@ -35,8 +35,8 @@
                           </Group>
                           <Group type="102" attributes="0">
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="txtPath" min="-2" pref="297" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtPath" pref="303" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -45,7 +45,7 @@
                       <Component id="btnStart" min="-2" pref="78" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="35" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -82,7 +82,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="PATH"/>
+        <Property name="text" type="java.lang.String" value="Absolute PATH"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
