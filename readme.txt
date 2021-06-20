@@ -23,4 +23,4 @@ Versión 2.0
 
 Contacto para informar de errores: alexguiraolopez@gmail.com
 
-¡Gracias por utilizar el programa!
+¡Gracias por utilizar el programa! 
